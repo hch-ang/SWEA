@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
-import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Solution {
@@ -23,7 +22,6 @@ public class Solution {
 			M = Integer.parseInt(st.nextToken());
 			arr = new boolean[N+1][N+1];
 			sig = new boolean[N+1];
-			Queue<Integer> Q = new LinkedList<Integer>();
 			int fr, to;
 			for(int i = 0; i < M; i++) {
 				st = new StringTokenizer(in.readLine());
